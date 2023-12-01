@@ -1,3 +1,5 @@
-fn main() {
-    println!("Hello, world!");
+mod day1;
+
+pub fn main() {
+    day1::main();
 }
