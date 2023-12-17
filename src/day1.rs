@@ -1,7 +1,7 @@
 use std::fs;
 
 pub fn main() {
-    let data = fs::read_to_string("../data/day1.txt").unwrap();
+    let data = fs::read_to_string("./data/day1.txt").unwrap();
 
     println!("{}", part_one(&data));
     println!("{}", part_two(&data));
